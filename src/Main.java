@@ -1,13 +1,13 @@
-import mijava.paquete.RATON;
+import mijava.paquete.ratonera;
 
 public class Main {
     public static void main(String[] args) {
-        RATON mickey=new RATON();
+        ratonera mickey=new ratonera();
         mickey.setEdad(1);
         mickey.setPeso(10);
         mickey.setTasaCrecimiento(0.5);
 
-        RATON ratatouille=new RATON();
+        ratonera ratatouille=new ratonera();
         ratatouille.setEdad(1);
         ratatouille.setPeso(8);
         ratatouille.setTasaCrecimiento(0.2);
@@ -19,7 +19,7 @@ public class Main {
         }
     }
 
-    private static void evolucion(RATON Raton_a, RATON Raton_b) {
+    private static void evolucion(ratonera Raton_a, ratonera Raton_b) {
         Raton_a.desarrollo();
         Raton_b.desarrollo();
     }
